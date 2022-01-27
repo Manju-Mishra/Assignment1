@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Sign-Up Form</title>
+        <style>
+          body{
+              background-color: darkslategray;
+          }
+          #btn{
+              height: 40px;
+              width: 100px;
+              background-color: darkred;
+              color: darkgray;
+              font-size: 17px;
+          }
+          label{
+              font-size: 25px;
+              color: darkgray;
+              font-weight: bold;
+          }
+          #btn:hover{
+              background-color: blueviolet;
+          }
+          input{
+              height: 30px;
+              width: 300px;
+          }
+        </style>
+        
+    </head>
+    <body>
+        <form id="form"  novalidate>
+            <h1>Login Page</h1>
+            <table>
+            <tr><td><label for="mail">Email Id</label></td><td><input type="Email" id="mail" name="name" placeholder="enter mail" required ></td></tr>
+            <tr><td><label for="pass">Password:</label></td><td><input type="password" id="pass" name="pass" placeholder="password" required ></td></tr>       
+            <tr><td><label for="pass">Confirm Password:</label></td><td><input type="password" id="c_pass" name="pass" placeholder="confirm password" required ></td></tr>
+            <tr><td><input type="submit" value="Login" id="btn"></td></tr>
+            
+            </table>
+          </form>
+         
+        </body>
+    </html>
